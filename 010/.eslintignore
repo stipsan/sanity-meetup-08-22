@@ -1,0 +1,6 @@
+.next
+.sanity
+.vercel
+node_modules
+public
+next.lock

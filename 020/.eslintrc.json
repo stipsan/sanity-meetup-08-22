@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "plugins": ["simple-import-sort"],
+  "extends": [
+    "@sanity/eslint-config-studio",
+    "next/core-web-vitals",
+    "prettier"
+  ],
+  "rules": {
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn"
+  }
+}

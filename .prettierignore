@@ -1,0 +1,6 @@
+.next
+.sanity
+.vercel
+dist
+package-lock.json
+public

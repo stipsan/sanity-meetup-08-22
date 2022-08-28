@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "build:vX": "npx rimraf public/vX && esbuild --platform=browser --bundle --minify --sourcemap --splitting --format=esm public-exports/* --outdir=public/vX",
+    "dev": "next",
+    "env": "npx vercel env pull .env.development",
+    "lint": "eslint --max-warnings 0 --fix .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.2.5",
+    "next-sanity": "^0.8.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "sanity": "3.0.0-dev-preview.15",
+    "sanity-plugin-asset-source-unsplash": "3.0.0-v3-studio.3",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@types/history": "^4.0.0",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "esbuild": "^0.15.6",
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "serve": "^14.0.1",
+    "typescript": "^4.8.2"
+  }
+}

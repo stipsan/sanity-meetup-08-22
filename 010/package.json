@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "env": "npx vercel env pull .env.development",
+    "lint": "eslint --max-warnings 0 --fix .",
+    "sanity:build": "sanity build",
+    "sanity:dev": "sanity start",
+    "sanity:start": "serve dist",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.2.5",
+    "next-sanity": "^0.8.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "read-title": "^1.0.4",
+    "sanity": "3.0.0-dev-preview.15",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "serve": "^14.0.1",
+    "typescript": "^4.8.2"
+  }
+}
