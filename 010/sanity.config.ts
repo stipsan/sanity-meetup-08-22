@@ -20,15 +20,21 @@ const pikachuTheme = { ...theme }
 
 let title = 'Bookmarks'
 try {
-  const jokesRes = await fetch(
+  /*
+  const res = await fetch(
     'https://v2.jokeapi.dev/joke/Any?type=single&safe-mode&format=json&amount=10'
   )
-  const { jokes } = await jokesRes.json()
-  debugger
+  const { jokes } = await res.json()
+  
   const joke = jokes
     .map(({ joke }) => joke)
     .reduce((prev, joke) => (prev.length > joke.length ? joke : prev))
-  if (joke) title = joke
+    
+    if (joke) title = joke
+    // */
+  const res = await fetch('https://my-bao-server.herokuapp.com/api/breadpuns')
+  const pun = await res.text()
+  if (pun) title = `🍞 ${pun}`
 } catch {
   // ignore
 }
