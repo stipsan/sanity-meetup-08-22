@@ -1,5 +1,5 @@
 import { createConfig } from 'sanity'
-import { deskTool, usePaneRouter } from 'sanity/desk'
+import { deskTool } from 'sanity/desk'
 
 import { schemaTypes } from './schemas'
 
