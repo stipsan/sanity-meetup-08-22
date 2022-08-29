@@ -2,9 +2,8 @@
   "private": true,
   "scripts": {
     "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy",
-    "start": "sanity start"
+    "dev": "sanity start",
+    "start": "serve dist"
   },
   "dependencies": {
     "react": "^17.0.2",
