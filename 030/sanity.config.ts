@@ -5,7 +5,6 @@ import { schemaTypes } from './schemas'
 import { deskTool, usePaneRouter } from 'sanity/desk'
 
 export default createConfig({
-  name: 'default',
   title: 'meetup-08-22-030',
 
   projectId: 'w0v7mkda',

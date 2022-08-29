@@ -8,10 +8,12 @@
     "singleQuote": true
   },
   "dependencies": {
+    "@sanity/eslint-config-studio": "^2.0.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-gitignore": "^0.1.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0"
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "typescript": "^4.8.2"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
