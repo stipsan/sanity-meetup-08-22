@@ -1,6 +1,6 @@
 import { createCliConfig } from 'sanity/cli'
 
-// TRIGGER DEPLOY !
+// TRIGGER DEPLOY !!
 
 export default createCliConfig({
   api: {
