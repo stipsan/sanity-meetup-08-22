@@ -3,6 +3,10 @@ module.exports = {
   ignorePatterns: require('eslint-gitignore').readGitignoreFiles({
     cwd: __dirname,
   }),
-  plugins: ['prettier'],
-  extends: ['plugin:prettier/recommended'],
+  plugins: ['simple-import-sort'],
+  extends: ['prettier'],
+  rules: {
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
+  },
 }
