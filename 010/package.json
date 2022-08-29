@@ -3,6 +3,7 @@
   "scripts": {
     "build": "sanity build",
     "dev": "sanity start",
+    "env": "npx vercel env pull .env.development",
     "start": "serve dist"
   },
   "dependencies": {

@@ -1,13 +1,20 @@
+/// <reference types="vite/client" />
+
+import { BookIcon } from '@sanity/icons'
 import { createConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
 
 import { schemaTypes } from './schemas'
 
-export default createConfig({
-  title: 'meetup-08-22-030',
+const projectId = import.meta.env.SANITY_STUDIO_API_PROJECT_ID
+const dataset = import.meta.env.SANITY_STUDIO_API_DATASET
 
-  projectId: 'w0v7mkda',
-  dataset: 'production',
+export default createConfig({
+  title: 'Bookmarks',
+  icon: BookIcon,
+
+  projectId,
+  dataset,
 
   plugins: [deskTool()],
 
