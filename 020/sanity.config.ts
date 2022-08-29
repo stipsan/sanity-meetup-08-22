@@ -3,6 +3,8 @@ import { deskTool } from 'sanity/desk'
 
 import { schemaTypes } from './schemas'
 
+// TRIGGER DEPLOY
+
 export default createConfig({
   title: 'meetup-08-22-020',
 
