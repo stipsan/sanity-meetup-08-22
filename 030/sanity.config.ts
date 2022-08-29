@@ -1,6 +1,11 @@
 import {createConfig} from 'sanity'
-import {deskTool} from 'sanity/desk'
+
+
+
 import {schemaTypes} from './schemas'
+
+
+import {deskTool,usePaneRouter} from 'sanity/desk'
 
 export default createConfig({
   name: 'default',

@@ -1,17 +1,11 @@
 {
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
-  },
-  "devDependencies": {
-    "prettier": "^2.7.1",
-    "prettier-plugin-organize-imports": "^3.1.0",
-    "prettier-plugin-packagejson": "^2.2.18",
-    "prettier-plugin-tailwindcss": "^0.1.13"
-  },
   "scripts": {
     "fmt": "prettier --ignore-path .gitignore --cache --write .",
     "lint": "eslint --cache --fix --quiet --max-warnings 0 ."
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   },
   "dependencies": {
     "@sanity/eslint-config-studio": "^2.0.0",
@@ -21,5 +15,11 @@
     "eslint-config-sanity": "^6.0.0",
     "eslint-gitignore": "^0.1.0",
     "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.1.0",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "prettier-plugin-tailwindcss": "^0.1.13"
   }
 }

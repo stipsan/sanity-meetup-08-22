@@ -1,12 +1,5 @@
 {
-  "name": "meetup-08-22-020",
-  "version": "1.0.0",
   "private": true,
-  "keywords": [
-    "sanity"
-  ],
-  "license": "UNLICENSED",
-  "main": "package.json",
   "scripts": {
     "build": "sanity build",
     "deploy": "sanity deploy",
@@ -22,8 +15,6 @@
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^2.0.0",
-    "eslint": "^8.6.0",
-    "prettier": "^2.7.1",
     "typescript": "^4.0.0"
   }
 }

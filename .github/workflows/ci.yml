@@ -3,9 +3,9 @@ name: CI
 on:
   push:
     paths:
-      - "010/**"
-      - "020/**"
-      - "030/**"
+      - '010/**'
+      - '020/**'
+      - '030/**'
   workflow_dispatch:
 
 jobs:
