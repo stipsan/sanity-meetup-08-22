@@ -1,8 +1,7 @@
 import { createConfig } from 'sanity'
+import { deskTool, usePaneRouter } from 'sanity/desk'
 
 import { schemaTypes } from './schemas'
-
-import { deskTool, usePaneRouter } from 'sanity/desk'
 
 export default createConfig({
   title: 'meetup-08-22-030',

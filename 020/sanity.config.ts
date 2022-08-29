@@ -1,6 +1,7 @@
 import { createConfig } from 'sanity'
-import { schemaTypes } from './schemas'
 import { deskTool } from 'sanity/desk'
+
+import { schemaTypes } from './schemas'
 
 export default createConfig({
   title: 'meetup-08-22-020',
