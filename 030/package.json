@@ -9,14 +9,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.2.5",
-    "next-sanity": "^0.8.4",
+    "next": "^12.3.3",
+    "next-sanity": "^0.8.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "sanity": "3.0.0-dev-preview.15",
     "sanity-plugin-asset-source-unsplash": "3.0.0-v3-studio.3",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^2.0.0",
