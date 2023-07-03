@@ -16,7 +16,7 @@
     "react-is": "^17.0.2",
     "react-joyride": "^2.5.2",
     "sanity": "3.0.0-dev-preview.15",
-    "styled-components": "^5.3.5"
+    "styled-components": "^6.0.0"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^2.0.0",
